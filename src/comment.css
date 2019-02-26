@@ -61,6 +61,7 @@ li {
     border-bottom: 1px solid #f1f1f1;
     padding: 10px 0 30px 0; 
     display: flex;
+    position: relative;
 }
 .comment-content .user{
     width: 30px;
@@ -73,4 +74,22 @@ li {
 .comment-content .content {
     flex: 1;
     white-space: wrap;
+}
+.time-content {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    font-size: 12px;
+}
+.delete-content {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    font-size: 12px;
+    color: red;
+    cursor: pointer;
+    display: none;
+}
+.comment-content:hover >.delete-content {
+    display: block;
 }
