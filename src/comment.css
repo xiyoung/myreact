@@ -1,0 +1,76 @@
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.wrap {
+    width: 400px;
+    border: 1px solid #f1f1f1;
+    margin: 20px auto;
+    padding: 20px;
+}
+.input-content {
+    border: 1px solid #f1f1f1;
+    padding: 10px;
+}
+/* .user-content,
+.text-content {
+    display: flex;
+    justify-content: space-around;
+} */
+.user-content input,
+.text-content textarea
+{
+    border: 1px solid #f1f1f1;
+    outline: none;
+    width: 250px;
+    padding: 5px;
+    float: right;
+    
+}
+.user-content span,
+.text-content span {
+    float: left;
+}
+.user-content,
+.text-content,
+.button-content {
+    overflow: hidden;
+}
+.text-content {
+    margin-top: 20px;
+}
+.text-content textarea{
+    resize: none;
+    height: 100px;
+}
+.button-content {
+    margin-top: 10px;
+}
+.button-content button{
+   float: right;
+   outline: none;
+   background-color: rgb(33, 192, 197);
+   border: none;
+   color: #f1f1f1;
+   padding: 4px 20px;
+   border-radius: 3px;
+}
+.comment-content {
+    border-bottom: 1px solid #f1f1f1;
+    padding: 10px 0 30px 0; 
+    display: flex;
+}
+.comment-content .user{
+    width: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: rgb(33, 192, 197);
+    font-style: italic
+}
+.comment-content .content {
+    flex: 1;
+    white-space: wrap;
+}
