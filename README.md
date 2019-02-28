@@ -1,1 +1,1 @@
-A counter by redux
+sample with learning react
